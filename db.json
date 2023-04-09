@@ -1,16 +1,12 @@
 {
   "books": [
     {
-      "title": "balenciaga",
+      "title": "Santiago Balenciaga",
       "id": 1
     },
     {
       "title": "Harry Potta",
       "id": 2
-    },
-    {
-      "title": "Balenciaga",
-      "id": 3
     }
   ]
 }
