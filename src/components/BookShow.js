@@ -4,7 +4,7 @@ import BookEdit from "./BookEdit";
 
 function BookShow({ book }) {
   const [showEdit, setShowEdit] = useState(false);
-  const { deleteBookByID } = useContext(BooksContext);
+  const { deleteBookById } = useContext(BooksContext);
 
   const handleSubmit = () => {
     setShowEdit(false);
@@ -16,7 +16,7 @@ function BookShow({ book }) {
   }
 
   const handleDeleteClick = () => {
-    deleteBookByID(book.id);
+    deleteBookById(book.id);
   };
 
   const handleEditClick = () => {
